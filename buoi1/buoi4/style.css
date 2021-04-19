@@ -7,7 +7,7 @@
     display: flex;
     text-align: center;
     padding: 20px;
-
+  background-image: url(./img/692a0f0cdd1d2f43760c.jpg);
 }
 nav{
     flex:1;
@@ -19,6 +19,7 @@ nav ul{
     list-style-type: none;
 }
 nav ul li{
+    
     display: inline-block;
     margin-right: 20px;
 }
@@ -39,6 +40,7 @@ a{
     justify-content: space-around;
 }
 .col-2{
+    margin:10px
     flex-basis: 50%;
     min-width: 300px;
 }
@@ -53,7 +55,12 @@ a{
 }
 .col-2 p{
     
+    width: 400px;
     font-family: Georgia;
+}
+.col-2 h1{
+    font-size: 60px;
+    width: 350px;
 }
 .btn{
     display: inline-block;
@@ -64,7 +71,8 @@ a{
     margin: 30px 0;
     margin-left: 120px;
 }
-#a{
+#a{ 
+    width: 150px;
     display: inline-block;
     background-color: black;
     color: white;
@@ -104,7 +112,7 @@ a{
     border-radius: 30px;
     padding: 8px 30px;
     margin: 30px 0;
-    margin-left: 50%; 
+    margin-left: 45%; 
 }
 .brands{
     background-color: blanchedalmond;
