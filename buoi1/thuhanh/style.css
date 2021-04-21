@@ -370,29 +370,133 @@ height: 877.85px;
 .feat-footer > img {
     width: 100%;    
 }
-.contact{
-    width: 1440px;
-height: 1160.12px;
-}
-.contact-tile{
-    text-align: center;
-}
-.contact-tile p{
- font-size: 30px;
-}
-.contact-row{
-    border-radius: 30px ;
-    width: 453px;
-height: 655.76px;
-background-color: dodgerblue;
-}
-.contact-row h3{
-  text-align: center;
-    font-size: 20px;
-}
-.contact-row-1{
-    text-align: center;
-    border-radius: 30px;
+.contact {
     
+    background: white;
+    padding: 0 0 40px 0;
+}
+.contact .title h1 {
+    text-align: center;
+    color: black;
+}
+.contact .title p {
+    text-align: center;
+    color: black;
+}
+.content{
+display: flex;
+}
+.content-1 form {
+    padding: 20px;
+    border: 1px solid #cecece;
+    border-radius: 5px;
+    width: 50%;
+    box-shadow: 0px 0px 6px 0px #aeaeae;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.content-1 input {
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    padding: 6px;
+    margin: 10px 0 0 0;
+    border: none;
+    background: #f1f1f1;
+}
+.content-1 {
+    width: 50%;
+}
+.content-1 textarea {
+    outline: none;
+    border-radius: 5px;
+    padding: 6px;
+    border: none;
+    background: #f1f1f1;
+    max-width: 335px;
+    min-height: 140px;
+    min-width: 240px;
+    max-height: 300px;
+    margin: 10px 0 0 0;
+    width: 100%;
+}
+.content-1 button {
+    padding: 10px 60px;
+    margin: 20px 0;
+    border-radius: 10px;
+    background: var(--color-background);
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+.content-2 {
+    margin-top: 40px;
+    width: 60%;
+}
+.contact-2 {
+  
+    display: flex;
+    padding: 25px 0;
+    justify-content: space-around;
+}
+.contact-2 img {
+    padding-left: 40px;
+    color: var(--color-background);
+    margin: 0 0 10px 0;
+}
+.contact-2 p {
+    color: grey;
+}
+.map{
+    margin-left: 70px;
+}
+.map iframe{
+    width: 70%;
+    height: 170px;
+}
+.contact-social {
+    padding: 40px 70px;
+    text-align: left;
+}
+.contact-social a {
+    color: var(--color-background);
+    margin: 10px;
+   
+}
+footer {
+    display: flex;
+    padding: 5% 10%;
+    background: #10163a;
+    color: white;
+    overflow: hidden;
+}
+.table {
+    width: 70%;
+    text-align: left;
+}
+.table th {  
+    font-size: 20px;    
+    color: white;
+}
+.table a {
+    color: white;
+    margin: 18px 0 0 0;
+    display: inline-block;
+}
 
+.footer-1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.footer-1 div {
+    width: 100%;
+}
+.footer-1 i {
+    font-size: 30px;
+    margin: 0 10px 0 0;
+}
+.ion {
+    justify-content: end;
 }
