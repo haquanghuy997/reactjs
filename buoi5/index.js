@@ -1,6 +1,6 @@
-let a = 4;
-let b = 5;
-let c = 5;
+let a = prompt('Nhập giá trị của a');
+let b = prompt('Nhập giá trị của b');
+let c = prompt('Nhập giá trị của c');
 
 
 	 if(a == 0) {
