@@ -9,116 +9,116 @@
 <body>
  <script>
 //bài tập về nhà bài 1:
-// let N = prompt(" nhap so N = ");
+let N = prompt(" nhap so N = ");
    
-//    document.write(`in ra các số từ 1 đến ${N} : `);
-//    console.log(`in ra các số từ 1 đến ${N} : `)
-//   for (let i = 1; i <=N; i++) {
+   document.write(`in ra các số từ 1 đến ${N} : `);
+   console.log(`in ra các số từ 1 đến ${N} : `)
+  for (let i = 1; i <=N; i++) {
      
-//    document.write(i+" ");
-//   console.log(i);
-//   }
+   document.write(i+" ");
+  console.log(i);
+  }
 //bài tạp 2:
-// let N = prompt("  nhap so N = ");
-//    document.write(`in ra các số lẻ từ 1 đến ${N} : `);
-//    console.log(`in ra các số lẻ từ 1 đến ${N} : `)
-//    for(let i=1;i<n;i++){
-//        if(i%2 !=0){
-//         document.write(i+" ");
-//   console.log(i);
-//    }
-// }
+let N = prompt("  nhap so N = ");
+   document.write(`in ra các số lẻ từ 1 đến ${N} : `);
+   console.log(`in ra các số lẻ từ 1 đến ${N} : `)
+   for(let i=1;i<n;i++){
+       if(i%2 !=0){
+        document.write(i+" ");
+  console.log(i);
+   }
+}
 // bài tập 3:
-// let N = prompt("  nhap so N = ");
-//    document.write(`in ra các số chẵn từ 1 đến ${N} : `);
-//    console.log(`in ra các số chẵn từ 1 đến ${N} : `)
-//    for(let i=1;i<n;i++){
-//        if(i%2==0){
-//         document.write(i+" ");
-//   console.log(i);
-//    }
-// }
+let N = prompt("  nhap so N = ");
+   document.write(`in ra các số chẵn từ 1 đến ${N} : `);
+   console.log(`in ra các số chẵn từ 1 đến ${N} : `)
+   for(let i=1;i<n;i++){
+       if(i%2==0){
+        document.write(i+" ");
+  console.log(i);
+   }
+}
 //bài ập 4:
-// let N = prompt(" nhap so N = ");
+let N = prompt(" nhap so N = ");
    
-// document.write(`in ra các số nguyên tố trong khoảng từ 1 đến ${N} : `);
-// console.log(`in ra các số nguyên tố trong khoảng từ 1 đến ${N} : `);
-// function ktnt(a){
-//     var dem=0;
-//     for (let i = 1; i <=a; i++) {
-//        if(a%i==0){
-//            dem+=1;
-//        }
+document.write(`in ra các số nguyên tố trong khoảng từ 1 đến ${N} : `);
+console.log(`in ra các số nguyên tố trong khoảng từ 1 đến ${N} : `);
+function ktnt(a){
+    var dem=0;
+    for (let i = 1; i <=a; i++) {
+       if(a%i==0){
+           dem+=1;
+       }
         
-//     }
-//  if(dem==2){
-//      return true;
-//  }else if(dem!=2){
-//      return false;
-//  }
+    }
+ if(dem==2){
+     return true;
+ }else if(dem!=2){
+     return false;
+ }
 
-// }
-// for (let i = 1; i <=N; i++) {
-//   if(ktnt(i)==true){
-//     document.write(i+" ");
-//     console.log(i);
-//   }
-// }
-// bài tập 5:
-// let N = prompt(" nhap so N = ");
-// let tong = 0;
-// document.write(`Tổng các số từ 1 đến ${N} là: `);
-// console.log(`Tổng các số từ 1 đến ${N} là: `)
-// for (let i = 1; i <=N; i++) {
-//  tong+=i;
-// }
-// document.write(tong);
-// console.log(tong);
+}
+for (let i = 1; i <=N; i++) {
+  if(ktnt(i)==true){
+    document.write(i+" ");
+    console.log(i);
+  }
+}
+bài tập 5:
+let N = prompt(" nhap so N = ");
+let tong = 0;
+document.write(`Tổng các số từ 1 đến ${N} là: `);
+console.log(`Tổng các số từ 1 đến ${N} là: `)
+for (let i = 1; i <=N; i++) {
+ tong+=i;
+}
+document.write(tong);
+console.log(tong);
 
 //bài tap 6:
-// let N = prompt(" nhap so N = ");
-// let sum=0;
-// document.write(`Tổng bình phương số từ 1 đến ${N} là: `);
-// console.log(`Tổng bình phương số từ 1 đến ${N} là: `);
-// for(let i=0;i<n;i++){
-// sum+=i;
-// }
-// document.write(sum);
-// console.log(sum);
-///bài tap 7:
-// let N = prompt(" nhap so N = ");
-// let sum=0;
-// document.write(`Tổng bình phương số lẻ từ 1 đến ${N} là: `);
-// console.log(`Tổng bình phương số  lẻ từ 1 đến ${N} là: `);
-// for(let i=0;i<n;i++){
-// if(i%2 !=0){
-//     sum+=i;
-// }
-// }
-// document.write(sum);
-// console.log(sum);
+let N = prompt(" nhap so N = ");
+let sum=0;
+document.write(`Tổng bình phương số từ 1 đến ${N} là: `);
+console.log(`Tổng bình phương số từ 1 đến ${N} là: `);
+for(let i=0;i<n;i++){
+sum+=i;
+}
+document.write(sum);
+console.log(sum);
+/bài tap 7:
+let N = prompt(" nhap so N = ");
+let sum=0;
+document.write(`Tổng bình phương số lẻ từ 1 đến ${N} là: `);
+console.log(`Tổng bình phương số  lẻ từ 1 đến ${N} là: `);
+for(let i=0;i<n;i++){
+if(i%2 !=0){
+    sum+=i;
+}
+}
+document.write(sum);
+console.log(sum);
 // bài tập 8:
-// let N = prompt(" nhap so N = ");
-// function KT(N){
-//     while ( N > 0)
-//     {
-//         var  t = N % 10;
+let N = prompt(" nhap so N = ");
+function KT(N){
+    while ( N > 0)
+    {
+        var  t = N % 10;
 
-//         if (t % 2 == 0)
-//             return false;
+        if (t % 2 == 0)
+            return false;
 
-//         N /= 10;
-//     }
-//     return true;
+        N /= 10;
+    }
+    return true;
     
-// }
-//     if(KT(N)==true){
-//         alert("YES");
-//         console.log(`(YES) -> ${N} các chữ số là số lẻ `);
-//     }else{
-//         alert("NO");
-//         console.log(`NO`)
-//     }
+}
+    if(KT(N)==true){
+        alert("YES");
+        console.log(`(YES) -> ${N} các chữ số là số lẻ `);
+    }else{
+        alert("NO");
+        console.log(`NO`)
+    }
         
  </script>
     <script src="./index.js"></script>
